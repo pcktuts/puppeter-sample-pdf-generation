@@ -9,7 +9,7 @@ const puppeteer = require('puppeteer');
     height: 1200,
     deviceScaleFactor:1
   });
-  await page.goto('http://localhost:3000', {
+  await page.goto('http://localhost:3000', { // change this to your url
     waitUntil: 'networkidle2',
   });
   await page.pdf({ path: 'sample-file.pdf'});

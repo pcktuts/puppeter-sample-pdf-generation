@@ -3,6 +3,8 @@
 * Requires Google Chrome
 * node js
 
+Execute these commands, make sure to change goto url in code(line 12) before running.
+
 ```bash
 npm i
 node index.js
